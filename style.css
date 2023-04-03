@@ -6,10 +6,7 @@
             var(--scroll-padding, 5rem);
     }
 }
-@media screen and (max-height: 450px) {
-    .menu-esq {padding-top: 15px;}
-    .menu-esq a {font-size: 18px;}
-}
+
 body{
     margin:0%;
     max-width: 100%;
@@ -27,7 +24,7 @@ body{
     height:100%;
     float: none;
     position: static;
-    max-width: 90vw;
+    max-width: 90%;
 }
 .titulo{
     text-align: center;
