@@ -1,0 +1,335 @@
+@viewport {
+    zoom: 1.0;
+    min-zoom: 1.0;
+    max-zoom: 1.6;
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding: 
+            var(--scroll-padding, 5rem);
+    }
+}
+@media screen and (max-height: 450px) {
+    .menu-esq {padding-top: 15px;}
+    .menu-esq a {font-size: 18px;}
+}
+body{
+    margin:0%;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(30, 30, 30);
+    color: rgb(250, 247, 241);
+}
+.principal{
+    color: rgb(250, 247, 241);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    height:100%;
+    float: none;
+    position: static;
+    max-width: 90vw;
+}
+.titulo{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 56px;
+}
+.nav-menu{
+    background-color:rgb(232, 90, 49); 
+    color:rgb(250, 247, 241);
+    height:64px;
+    width:auto;
+    padding-left: 25px;
+    padding-right: 5px;
+    display:flex;
+    box-shadow: 0px 5px 10px black;
+    z-index: 2;
+    display:flex;
+    margin: 10px;
+    border-radius: 15px;
+}
+.nav-menu a{
+    width: auto;
+    /*right:*/
+    text-align: center;
+    margin-right:30px;
+    margin-left:30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom:auto;
+    padding-top: auto;
+    padding: 10px;
+    color: rgb(250, 247, 241);
+    border: 2px solid transparent;
+}
+.dentro-menu4 div:hover{
+    background-color: rgba(30, 30, 30, 0.326);  
+    border-radius: 8px;
+    cursor: pointer;
+}
+.dentro-menu1{
+    display:flex;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.dentro-menu2{
+    height: 64px;
+    width: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.dentro-menu2 a{
+    display: flex;
+    top:0%;
+    bottom:0px;
+    height: auto;
+    max-height: 61px;
+    padding:0%;
+    margin:0px;
+}
+.dentro-menu2 img{
+    height: 61px;
+}
+.dentro-menu3{
+    display:flex;
+    margin-left: 3vw;
+    margin-right: auto;
+    max-height: 100%;
+    padding: 0px;
+}
+.dentro-menu3 a{
+    max-height: 95%;
+    height: 95%;
+    padding:0px;
+    justify-content: center;
+}
+.dentro-menu4{
+    display:flex;
+    margin-right: 1vw;
+    max-height: 100%;
+}
+.dentro-menu4 div{
+    display:flex;
+    margin:auto;
+    align-content: center;
+    text-align: center;
+}
+.icone-nav{
+    height: 100%;
+}
+#ECSI{
+    font-size: 1.8em;
+    color: rgb(250, 247, 241);
+    font-weight: bold;
+    margin: 0px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50%;
+    transform:translateY(-25%);
+}
+#ECSI:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.atalho-horarios{
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    margin-left:43%;
+    margin-right: 43%;
+    border: 2px solid rgb(232, 90, 49);
+    padding:4px;
+    padding-left: 8px;
+    border-radius: 8px;
+    color: rgb(232, 90, 49);
+}
+.atalho-horarios:hover{
+    color: rgb(250, 247, 241);
+    background-color: rgb(232, 90, 49);
+    transition: 0.3s;
+}
+.atalho-direcoes{
+    text-align: center;
+    padding: 6px;
+    border: 2px solid rgb(232, 90, 49);
+    border-radius: 8px;
+    color: rgb(232, 90, 49)
+}
+.atalho-direcoes:hover{
+    color: rgb(250, 247, 241);
+    background-color: rgb(232, 90, 49);
+    transition: 0.2s;
+}
+.bi-arrow-right-short{
+    vertical-align: text-top;
+}
+.back2top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    scroll-behavior: smooth;
+    background-color: rgb(30, 30, 30);
+    border: 2px solid rgb(232, 90, 49);
+    border-radius: 12px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.back2top_item{
+    display:flex;
+    justify-content: center;
+    padding: 33%;
+    color:rgb(232, 90, 49);
+    z-index: 99;
+}
+.back2top:hover{
+    background-color: rgb(232, 90, 49);
+    transition: 0.3s;
+}
+.back2top_item:hover{
+    color:rgb(250, 247, 241);
+    transition: 0.3s;
+}
+.footer{
+    height: 100px;
+    background-color: rgb(30, 30, 30);
+    margin-top:10vh;
+}
+.footer p{
+    text-align: center;
+    color:rgb(232, 90, 49);
+}
+.separador-footer{
+    border: 1px solid rgb(232, 90, 49);
+}
+.menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    width: 50px;
+    margin:auto;
+    padding: auto;
+    top:10px;
+    margin-right: 20px;
+}
+.menu:hover{
+    color: rgb(30,30,30);
+}
+.line {
+    fill: none;
+    stroke: rgb(250, 247, 241);
+    stroke-width: 6;
+}
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+.menu-esq {
+    height: auto;
+    width: 0;
+    max-width: 75%;
+    position: fixed;
+    z-index: 100;
+    margin-left: 10px;
+    bottom: 10px;
+    top: 89px;
+    border-radius: 15px;
+    background-color: rgb(232, 90, 49);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+    padding-left: 0px;
+    box-shadow: 0px 10px 10px black;
+}
+.menu-esq a { 
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(250, 247, 241);
+    display: flex;
+    transition: 0.5s;
+}
+.menu-esq .closebtn {
+
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right: 0px;
+    font-size: 36px;
+    padding: 20px;
+    max-height: 25px;
+    max-width: 50px;
+}
+.menu-esq ul {
+    list-style: none;
+    transition: 5s;
+}
+.menu-esq li {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(250, 247, 241);
+    max-width: 100%;
+    transition: 0.5s;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.menu-esq li:hover {
+    background-color: rgb(30, 30, 30);
+    border: 1.5px solid white;
+    padding-left: 15px;
+    transition: 0.5s;
+}
+.imagem1{
+    max-width:100%;
+    margin-bottom: 100px;
+}
+.esp-h15{
+    width: 15px;
+}
+.esp-h10{
+    width: 10px;
+}
+.vesp-h5{
+    height: 5px;
+}
+.info{
+    display: flex;
+    text-align: center;
+    margin:auto;
+    width: 70%;
+    margin-bottom: 100px;
+}
+.horarios{
+    text-align:center;
+    margin: auto;
+    margin-top: 0px;
+    width: 70vw;
+}
