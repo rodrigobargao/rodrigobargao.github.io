@@ -1,8 +1,4 @@
-@viewport {
-    zoom: 1.0;
-    min-zoom: 1.0;
-    max-zoom: 1.6;
-}
+
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
         scroll-behavior: smooth;
@@ -27,7 +23,7 @@ body{
     color: rgb(250, 247, 241);
     margin-left: auto;
     margin-right: auto;
-    width: 1080px;
+    width: 90%;
     height:100%;
     float: none;
     position: static;
